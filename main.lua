@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local TannyHub = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -55,7 +50,7 @@ local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 --Properties:
 
 TannyHub.Name = "TannyHub"
-TannyHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TannyHub.Parent = game.CoreGui
 TannyHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 TannyHub.ResetOnSpawn = false
 
@@ -369,7 +364,7 @@ UIAspectRatioConstraint_5.DominantAxis = Enum.DominantAxis.Height
 
 -- Scripts:
 
-local function XUXJCLP_fake_script() -- Frame_2.LocalScript 
+local function NXKVYJ_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	local Scool = script.Parent.Parent.Scoling
@@ -392,8 +387,8 @@ local function XUXJCLP_fake_script() -- Frame_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(XUXJCLP_fake_script)()
-local function UFUEY_fake_script() -- Frame_2.LocalScript 
+coroutine.wrap(NXKVYJ_fake_script)()
+local function AVQKX_fake_script() -- Frame_2.LocalScript 
 	local script = Instance.new('LocalScript', Frame_2)
 
 	if _G.Color == nil then
@@ -405,8 +400,8 @@ local function UFUEY_fake_script() -- Frame_2.LocalScript
 		end
 	end
 end
-coroutine.wrap(UFUEY_fake_script)()
-local function SBZQUWK_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(AVQKX_fake_script)()
+local function JDCCXIO_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	wait(2)
@@ -429,8 +424,8 @@ local function SBZQUWK_fake_script() -- TextBox.LocalScript
 		end)	
 	end)
 end
-coroutine.wrap(SBZQUWK_fake_script)()
-local function UEDWE_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(JDCCXIO_fake_script)()
+local function AOOY_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local But = script.Parent.Parent.TextLabel
@@ -452,8 +447,8 @@ local function UEDWE_fake_script() -- TextButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UEDWE_fake_script)()
-local function OXTEYR_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(AOOY_fake_script)()
+local function JYFQS_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local But = script.Parent.Parent.TextLabel
@@ -476,8 +471,8 @@ local function OXTEYR_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(OXTEYR_fake_script)()
-local function AMKQU_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(JYFQS_fake_script)()
+local function MJRG_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local But = script.Parent.Parent.TextLabel
@@ -551,8 +546,8 @@ local function AMKQU_fake_script() -- TextButton_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(AMKQU_fake_script)()
-local function AHOODGC_fake_script() -- Frame.MoveVisible 
+coroutine.wrap(MJRG_fake_script)()
+local function LTXZ_fake_script() -- Frame.MoveVisible 
 	local script = Instance.new('LocalScript', Frame)
 
 	game:GetService("UserInputService").InputBegan:Connect(function(i,c)
@@ -563,8 +558,8 @@ local function AHOODGC_fake_script() -- Frame.MoveVisible
 		end
 	end)
 end
-coroutine.wrap(AHOODGC_fake_script)()
-local function SYEQP_fake_script() -- Frame.Move 
+coroutine.wrap(LTXZ_fake_script)()
+local function CHSFFX_fake_script() -- Frame.Move 
 	local script = Instance.new('LocalScript', Frame)
 
 	local Click = false
@@ -595,10 +590,10 @@ local function SYEQP_fake_script() -- Frame.Move
 	
 	
 end
-coroutine.wrap(SYEQP_fake_script)()
-local function IPGUQTU_fake_script() -- Frame.Tween 
+coroutine.wrap(CHSFFX_fake_script)()
+local function UNYOSD_fake_script() -- Frame.Tween 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent:TweenSize(UDim2.new(0.538, 0,0.538, 0),"Out",Enum.EasingStyle.Quart,0.5,true)
 end
-coroutine.wrap(IPGUQTU_fake_script)()
+coroutine.wrap(UNYOSD_fake_script)()
